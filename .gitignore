@@ -51,3 +51,13 @@ node_modules/
 
 # Trae 临时文件
 .trae/
+
+# 本地运行残留
+*.err
+datadir_list.txt
+dump.rdb
+mysql_start_code.txt
+mysql_start_result.txt
+mysqld_elevated_log.txt
+resume.docx
+面试模拟问答.md
