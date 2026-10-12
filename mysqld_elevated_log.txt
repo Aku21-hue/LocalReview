@@ -1,0 +1,12 @@
+﻿mysqld.exe : mysqld: Can't read dir of 'C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\' (OS errno 2 - No such file or d
+irectory)
+所在位置 行:1 字符: 1
++ & 'C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe' --defaults ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (mysqld: Can't r...e or directory):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-08-30T01:56:27.491424Z 0 [ERROR] [MY-010095] [Server] Failed to access directory for --secure-file-priv. Please ma
+ke sure that directory exists and is accessible by MySQL Server. Supplied value : C:/ProgramData/MySQL/MySQL Server 8.0
+/Uploads
+2026-08-30T01:56:27.491463Z 0 [ERROR] [MY-010119] [Server] Aborting
